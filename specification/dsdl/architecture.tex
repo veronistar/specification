@@ -82,11 +82,11 @@ The following rules apply to naming:
     Note the data type name shown in this example violates the naming conventions
     which are reviewed in a separate section.
 }.
-    \item Data type names and namespace names are case-sensitive. Names that differ only in letter case are not permitted because that may cause name collisions within case-insensitive file systems.
+    \item Data type names and namespace names are case-sensitive.\footnote{%Names that differ only in letter case are not permitted because that may cause name collisions within case-insensitive file systems.}
     \item A name component consists of alphanumeric ASCII characters (\verb|A-Z|, \verb|a-z|, and \verb|0-9|) and underscores (``\verb|_|'', ASCII code 95).
     \item The first character of a name must not be numerical.
     \item An empty string is not a valid name.
-    \item File name extension shall be ``\verb|uavcan|''.
+    \item File name extension ``\verb|uavcan|'' (mandatory).
     \item A name component must not match any of the reserved word patterns listed in table \ref{table:dsdl_reserved_word_patterns}.
     \item The length of a full data type name must not exceed 50 characters, including the name component separators.
 \end{itemize}
